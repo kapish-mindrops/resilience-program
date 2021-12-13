@@ -34,7 +34,7 @@ p {
 .btn {
   padding: 0.63rem 2rem;
   border-radius: 4px;
-  // margin: 10px 6px 10px;
+  border: 1px solid;
   transition: 0.3s ease;
   cursor: pointer;
 
@@ -49,6 +49,7 @@ p {
     background-size: 200% auto;
     color: #fff;
     margin: 15px;
+    border: 1px solid transparent;
   }
 
   &-login:hover {
