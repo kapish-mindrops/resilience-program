@@ -1,0 +1,34 @@
+@include media-md {
+  .menu-nav {
+    display: block;
+
+    .menu-nav__logo {
+      justify-content: space-between;
+    }
+
+    .menu-nav__quote {
+      margin-top: 5rem;
+    }
+  }
+
+  .login-box {
+    margin-top: 4rem;
+
+    input {
+      width: 90%;
+    }
+  }
+
+  .footer-main {
+    flex-direction: column;
+
+    .footer-menu {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .sponcer {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}

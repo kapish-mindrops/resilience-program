@@ -1,0 +1,74 @@
+$primary-color: #fff;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  width: 100%;
+}
+.login-bg {
+  background: url("../images/login-bg.jpg") no-repeat center center/cover;
+  color: set-text-color($primary-color);
+  height: 100vh;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.text-success {
+  color: #7ab648 !important;
+}
+.text-success2 {
+  color: #198754 !important;
+}
+
+.btn {
+  padding: 0.63rem 2rem;
+  border-radius: 4px;
+  // margin: 10px 6px 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+  &-login {
+    background-image: linear-gradient(
+      to right,
+      #314755 0%,
+      #26a0da 51%,
+      #314755 100%
+    );
+    text-align: center;
+    background-size: 200% auto;
+    color: #fff;
+    margin: 15px;
+  }
+
+  &-login:hover {
+    background-position: right center;
+    color: #fff;
+  }
+
+  &-forgot-pw {
+    background-color: transparent;
+    color: set-text-color($primary-color);
+    margin: 15px;
+    border: 1px solid transparent;
+  }
+  &-forgot-pw:hover {
+    border: 1px solid;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
