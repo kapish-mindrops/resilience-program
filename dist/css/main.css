@@ -44,6 +44,7 @@ p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   cursor: pointer;
+  border: 1px solid #555;
 }
 
 .btn-login {
